@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="584.0" prefWidth="813.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.SpendingListController">
+   <children>
+      <Label text="Registro de gastos">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <ToolBar prefHeight="40.0" prefWidth="200.0">
+        <items>
+          <Button fx:id="btNew" mnemonicParsing="false" onAction="#onbtNewAction" text="Novo" />
+            <Button fx:id="btSearch" mnemonicParsing="false" onAction="#onbtSearchAction" text="Buscar" />
+        </items>
+      </ToolBar>
+      <TableView fx:id="tableViewSpending" prefHeight="377.0" prefWidth="1010.0">
+        <columns>
+          <TableColumn fx:id="tableColumnDate" prefWidth="90.0" text="DATA" />
+          <TableColumn fx:id="tableColumnWater" prefWidth="90.0" text="ÁGUA" />
+            <TableColumn fx:id="tableColumnLight" prefWidth="90.0" text="LUZ" />
+            <TableColumn fx:id="tableColumnSuperMarket" prefWidth="130.0" text="SUPERMERCADO" />
+            <TableColumn fx:id="tableColumnCreditCard" prefWidth="150.0" text="CARTÃO DE CREDITO" />
+            <TableColumn fx:id="tableColumnOthers" prefWidth="90.0" text="OUTROS" />
+            <TableColumn fx:id="tableColumnEdit" prefWidth="45.0" />
+            <TableColumn fx:id="tableColumnRemove" minWidth="0.0" prefWidth="63.0" />
+        </columns>
+      </TableView>
+   </children>
+</VBox>
