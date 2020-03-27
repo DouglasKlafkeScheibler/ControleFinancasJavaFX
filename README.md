@@ -1,9 +1,9 @@
 # Controle Finanças 
 
-## Sobre o projeto:
+## Sobre o projeto
 Esse projeto tem o intuito de auxiliar no controle de despesas como luz, água, etc. Para fazer esse controle, o usuário terá a opção de cadastrar contas mensais, e, após o cadastramento, ele terá os recursos de edição, deleção e busca.
 
-##Tecnologias utilizadas:
+## Tecnologias utilizadas:
 Para o auxílio da criação da interface gráfica, foi utilizado o SceneBuilder, que monta toda a estrutura em código FXML. Para o armazenamento de dados, está sendo utilizado um banco remoto da AWS(Amazon Web Services) onde a escolha do banco foi o Postgres.
 
 ## Começando
