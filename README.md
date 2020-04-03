@@ -6,6 +6,22 @@ Esse projeto desktop tem o intuito de auxiliar no controle de despesas como luz,
 ## Tecnologias utilizadas
 Para o auxílio da criação da interface gráfica, foi utilizado o SceneBuilder, que monta toda a estrutura em código FXML. Para o armazenamento de dados, está sendo utilizado um banco remoto da AWS(Amazon Web Services) onde a escolha do banco foi o Postgres.
 
+## Telas criadas
+
+* Tela principal
+
+![TelaPrincipal](https://user-images.githubusercontent.com/54071089/78406790-c1eb5580-75d9-11ea-9dfd-22cc5fdda33e.png)
+
+* Tela de Cadastro
+
+![TelaCadastro](https://user-images.githubusercontent.com/54071089/78406872-fc54f280-75d9-11ea-9f7e-f69ab462af9f.png)
+
+![TelaCadastroData](https://user-images.githubusercontent.com/54071089/78406978-2f978180-75da-11ea-8140-1f3ad79ef3d0.png)
+
+* Tela de busca
+
+![TelaBusca](https://user-images.githubusercontent.com/54071089/78407088-62da1080-75da-11ea-9d90-9fcfdeae3f0b.png)
+
 ## Começando
 Para a aplicação conseguir rodar em sua máquina, é preciso que algumas variáveis de ambiente sejam criadas. Também é necessário que o jdk e o javafx-jdk estejam instalados na máquina. Para facilitar esse processo de instalação, fiz um vídeo no YouTube, onde faço passo a passo daquilo que deve ser feito para deixar a aplicação rodando. Caso prefira ver o vídeo, entre nesse link: https://www.youtube.com/watch?v=6ks9rTY3amo&t=22s.
 
